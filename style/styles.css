@@ -32,7 +32,7 @@
 
 }
 #hero{
-    background: linear-gradient(0.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background: linear-gradient(0.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),    url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,5 +147,75 @@
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
 }
+.side_image img{
+    /* image 1 */
+    width: 750px;
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    padding: 60px;
+}
+#contant_img .all_contant{
+    /* Frame 21 */
+width: 830px;
+height: 398px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+}
 
+#part-1{
+    /* background-color: brown; */
+    background-image: url("../assets/social-bg.png");
+    /* image 2 */
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
 
+}
+
+#part-1 .part-2{
+    width: 450px;
+    height: 1000px;
+    margin: 0 auto;
+    
+}  
+
+#part-1 .part-h{
+    color: rgba(16, 16, 16, 1);
+
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+}
+#part-1 .part-p{
+    color: rgba(16, 16, 16, 1);
+
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 80%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#part-1 .part-fallow{
+    color: rgba(16, 16, 16, 1);
+
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 50px;
+}
